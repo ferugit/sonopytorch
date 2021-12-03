@@ -2,14 +2,13 @@
 
 *Torch implementation of Sonopy*
 
-Sonopy is a lightweight Python library used to extract audio features. The original implementation can be found [here](https://github.com/MycroftAI/sonopy). By now, this can be used to extract:
+Sonopy is a lightweight Python library used to extract audio features developed by MycroftAI. The original implementation can be found [here](https://github.com/MycroftAI/sonopy). By now, this can be used to extract:
 
  - Power spectrogram
  - Mel spectrogram
  - MFCC (not implemented yet)
 
-
-This implementation can be used while training a torch model as it works with batches of torch tensors.
+Read more about the library on https://github.com/MycroftAI/sonopy. This implementation can be used while training a torch model as it works with batches of torch tensors.
 
 ## Motivation
 

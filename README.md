@@ -24,6 +24,7 @@ For the usage of the model in the end-device one of this two implementations mus
 
 ```python
 import torch
+import sonopytorch
 
 fs=16000
 audio = torch.rand(20, 16000).float() # simulate a batch of 20 audios of 1s

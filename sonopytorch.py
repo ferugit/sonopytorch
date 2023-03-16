@@ -2,8 +2,6 @@ import torch
 import math
 from functools import lru_cache
 
-from sonopy import mel_spec
-
 
 def chop_array(arr: torch.Tensor, window_size: int, hop_size: int):
     """chop_array([1,2,3], 2, 1) -> [[1,2], [2,3]]"""

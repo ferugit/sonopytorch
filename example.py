@@ -21,5 +21,11 @@ def main():
     print("SonopyTorch output shape: " + str(mels.shape))
 
 
+    print("\nMFCCs")
+    mfcc = sonopytorch.MFCC(fs)
+    mfccs = mfcc(audio).data.numpy()
+    print("SonopyTorch output shape: " + str(mfccs.shape))
+
+
 if __name__ == '__main__':
     main()

@@ -34,4 +34,8 @@ spec = spectrogram(audio)
 
 mel_spectrogram = sonopytorch.MelSpectrogram(fs)
 mels = mel_spectrogram(audio)
+
+mfcc = sonopytorch.MFCC(fs)
+mfccs = mfcc(audio).data.numpy()
+
 ```
